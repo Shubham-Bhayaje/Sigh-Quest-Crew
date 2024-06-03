@@ -9,7 +9,7 @@ const EmailForm = () => {
     message: "",
   });
 
-  const handleChange = (e: { target: { name: any; value: any; }; }) => {
+  const handleChange = (e: { target: { name: any; value: any } }) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -17,15 +17,15 @@ const EmailForm = () => {
     });
   };
 
-  const handleSubmit = (e: { preventDefault: () => void; }) => {
+  const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
 
     emailjs
       .send(
-        "service_i10p9x5", // replace with your EmailJS service ID
-        "template_h14ichc", // replace with your EmailJS template ID
+        "service_i10p9x5",
+        "template_h14ichc",
         formData,
-        "Lq05UpCOLi7VxWx4o" // replace with your EmailJS user ID
+        "Lq05UpCOLi7VxWx4o"
       )
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
