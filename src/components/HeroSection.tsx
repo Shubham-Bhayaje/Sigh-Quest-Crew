@@ -9,17 +9,9 @@ import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 import { animate, stagger } from "framer-motion";
 
-const wordss = `At SIGH. we are a dedicated team of developers specializing in
-crafting custom websites, Android Applications, and cutting-edge
-machine learning projects. Our mission is to transform your ideas into
-reality with precision and creativity, tailored to meet your unique
-needs and aspiration.
+const wordss = `At SIGH, our team crafts custom websites, Android apps, and innovative machine learning projects. We turn your ideas into reality with precision and creativity, tailored to your unique needs.
 `;
-const wordss2 = `At SIGH. we are a dedicated team of developers specializing in
-crafting custom websites, Android Applications, and cutting-edge
-machine learning projects. Our mission is to transform your ideas into
-reality with precision and creativity, tailored to meet your unique
-needs and aspiration.
+const wordss2 = `At SIGH, our team crafts custom websites, Android apps, and innovative machine learning projects. We turn your ideas into reality with precision and creativity, tailored to your unique needs.
 `;
 export function TextGenerateEffectDemo() {
   return <TextGenerateEffect wordss={wordss} />;
@@ -97,7 +89,7 @@ function HeroSection() {
         <h1 className="mt-40 md:mt-40 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 font-serif">
           Sigh Quest Crew
         </h1>
-        <h1 className="mt-2 font-normal md:text-lg max-w-lg mx-auto text-blue-600 font-serif flex items-center justify-center">
+        <h1 className="mt-2 font-normal md:text-lg max-w-lg mx-auto text-blue-600 font-serif flex items-center justify-center ">
           <TypewriterEffectSmooth words={words} />
         </h1>
 
