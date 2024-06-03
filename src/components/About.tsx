@@ -14,7 +14,7 @@ function About() {
             Our Executive Team
           </h2>
           <p className="text-base font-semibold tracking-wide uppercase m-10 text-center max-w-lg font-serif">
-            We're a skilled team that builds user-friendly websites, writes
+            We are a skilled team that builds user-friendly websites, writes
             clear documentation, develops engaging Android apps, and tackles
             complex machine learning projects.
           </p>
