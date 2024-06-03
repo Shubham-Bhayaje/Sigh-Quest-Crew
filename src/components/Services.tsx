@@ -1,5 +1,7 @@
 import React from "react";
 import { Meteors } from "./ui/meteors";
+import Image from "next/image";
+
 
 function Services() {
   return (
@@ -26,7 +28,9 @@ function Services() {
           <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
           <div className="relative shadow-xl bg-gray-900 border border-gray-800 px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-center">
             {/* Content */}
-            <img src="/Android.png" alt="" className="w-20 h-20 m-4" />
+            <Image src="/Android.png" alt="" width={100} height={100} className="m-4" />
+
+
             <h1 className="font-bold text-xl text-white mb-4 relative z-50 text-center">
               Android Development
             </h1>
@@ -44,7 +48,7 @@ function Services() {
           <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
           <div className="relative shadow-xl bg-gray-900 border border-gray-800 px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-center">
             {/* Content */}
-            <img src="/Web.png" alt="" className="w-20 h-20 m-4" />
+            <Image src="/Web.png" alt="" width={100} height={100} className="m-4" />
             <h1 className="font-bold text-xl text-white mb-4 relative z-50 text-center">
               Web Development
             </h1>
@@ -62,7 +66,7 @@ function Services() {
           <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
           <div className="relative shadow-xl bg-gray-900 border border-gray-800 px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-center">
             {/* Content */}
-            <img src="/Ai.png" alt="" className="w-20 h-20 m-4" />
+            <Image src="/Ai.png" alt="" width={100} height={100} className="m-4" />
             <h1 className="font-bold text-xl text-white mb-4 relative z-50">
               Machine learning
             </h1>
@@ -80,7 +84,7 @@ function Services() {
           <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
           <div className="relative shadow-xl bg-gray-900 border border-gray-800 px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-center">
             {/* Content */}
-            <img src="/Doc.png" alt="" className="w-20 h-20 m-4" />
+            <Image src="/Doc.png" alt="" width={100} height={100} className="m-4" />
             <h1 className="font-bold text-xl text-white mb-4 relative z-50 text-center">
               Documentation Management
             </h1>

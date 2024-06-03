@@ -37,7 +37,8 @@ function About() {
                 Shubham Bhayaje
               </p>
 
-              <p className="text-sm text-neutral-600 dark:text-neutral-400 lg:mr-6 ">Full Stack Developer
+              <p className="text-sm text-neutral-600 dark:text-neutral-400 lg:mr-6 ">
+                Full Stack Developer
               </p>
             </div>
           </BackgroundGradient>
@@ -73,7 +74,7 @@ function About() {
               </p>
 
               <p className="text-sm text-neutral-600 dark:text-neutral-400">
-              Lead Designer / Android Developer
+                Lead Designer / Android Developer
               </p>
             </div>
           </BackgroundGradient>
@@ -96,9 +97,6 @@ function About() {
             </div>
           </BackgroundGradient>
         </div>
-      </div>
-      <div className="mt-20 text-center">
-        <Link href={"/About"}></Link>
       </div>
     </div>
   );

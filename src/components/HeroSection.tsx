@@ -1,10 +1,13 @@
-import React from "react";
+"use client";
+
+import React, { useEffect } from "react";
 import Link from "next/link";
 import { Button } from "./ui/moving-border";
 import { Spotlight } from "./ui/Spotlight";
 import { AnimatedTooltip } from "./ui/animated-tooltip";
 import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
+import { animate, stagger } from "framer-motion";
 
 const wordss = `At SIGH. we are a dedicated team of developers specializing in
 crafting custom websites, Android Applications, and cutting-edge
@@ -71,6 +74,19 @@ const words = [
 ];
 
 function HeroSection() {
+  useEffect(() => {
+    animate(
+      "span",
+      {
+        opacity: 1,
+      },
+      {
+        duration: 2,
+        delay: stagger(0.1),
+      }
+    );
+  }, []);
+
   return (
     <div className="h-screen w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
       <Spotlight
@@ -88,8 +104,6 @@ function HeroSection() {
         <h1 className="mt-2 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto font-serif">
           <TextGenerateEffect wordss={wordss} />
         </h1>
-        
-
 
         <div className="flex flex-row items-center justify-center mb-10 w-full mt-10">
           <AnimatedTooltip items={people} />
