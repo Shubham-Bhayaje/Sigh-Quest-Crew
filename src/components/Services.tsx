@@ -2,7 +2,6 @@ import React from "react";
 import { Meteors } from "./ui/meteors";
 import Image from "next/image";
 
-
 function Services() {
   return (
     <div className="flex items-center justify-center h-full dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col mt-10">
@@ -19,7 +18,7 @@ function Services() {
           background. Our intuitive tools and customizable templates empower you
           to bring your unique vision to life seamlessly. Elevate your digital
           identity and engage your audience with a website that reflects your
-          brand's essence, all without the complexities of traditional web
+          brand&apos;s essence, all without the complexities of traditional web
           development.
         </p>
       </div>
