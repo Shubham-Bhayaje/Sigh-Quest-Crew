@@ -949,6 +949,9 @@ video {
 .mt-8 {
   margin-top: 2rem;
 }
+.mt-40 {
+  margin-top: 10rem;
+}
 .block {
   display: block;
 }

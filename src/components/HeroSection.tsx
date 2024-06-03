@@ -94,7 +94,7 @@ function HeroSection() {
         fill="white"
       />
       <div className="p-4 relative z-10 w-full text-center">
-        <h1 className="mt-20 md:mt-40 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 font-serif">
+        <h1 className="mt-40 md:mt-40 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 font-serif">
           Sigh Quest Crew
         </h1>
         <h1 className="mt-2 font-normal md:text-lg max-w-lg mx-auto text-blue-600 font-serif flex items-center justify-center">
