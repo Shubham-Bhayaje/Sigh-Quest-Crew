@@ -21,33 +21,33 @@ function Navbar({ className }: { className?: string }) {
             item="Home"
           ></MenuItem>
         </Link>
-        <MenuItem setActive={setActive} active={active} item="About"></MenuItem>
+        <Link href="/about">
+          <MenuItem setActive={setActive} active={active} item="About" />
+        </Link>
         <MenuItem setActive={setActive} active={active} item="Contact">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink
-              href="/Instagram"
+              href="https://www.instagram.com/sigh_questcrew?utm_source=qr&igsh=eG1qMm92OGhpczBz"
               className="flex-row items-center justify-center"
             >
               Instagram
             </HoveredLink>
-            <HoveredLink href="/Tweeter">Tweeter</HoveredLink>
+            <HoveredLink href="https://x.com/SighQuestcrew">
+              Tweeter
+            </HoveredLink>
+            <HoveredLink href="/contact">Email</HoveredLink>
           </div>
         </MenuItem>
-        <MenuItem
-          setActive={setActive}
-          active={active}
-          item="Projects"
-        ></MenuItem>
+        <Link href="/projects">
+          <MenuItem setActive={setActive} active={active} item="Projects" />
+        </Link>
+
         <MenuItem setActive={setActive} active={active} item="Services">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/Web Development">Web Development</HoveredLink>
-            <HoveredLink href="/Android Development">
-              Android Development
-            </HoveredLink>
-            <HoveredLink href="/Machine learning">Machine learning</HoveredLink>
-            <HoveredLink href="/Documentation Management">
-              Documentation Management
-            </HoveredLink>
+            <HoveredLink href="/services">Web Development</HoveredLink>
+            <HoveredLink href="/services">Android Development</HoveredLink>
+            <HoveredLink href="/services">Machine learning</HoveredLink>
+            <HoveredLink href="/services">Documentation Management</HoveredLink>
           </div>
         </MenuItem>
       </Menu>

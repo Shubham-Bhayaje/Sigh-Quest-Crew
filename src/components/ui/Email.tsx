@@ -43,48 +43,49 @@ const EmailForm = () => {
 
   return (
     <form
-      onSubmit={handleSubmit}
-      className="max-w-lg mx-auto p-8 bg-white shadow-md rounded-lg"
-    >
-      <div className="mb-6">
-        <label className="block text-gray-700 font-bold mb-2">Name:</label>
-        <input
-          type="text"
-          name="name"
-          value={formData.name}
-          onChange={handleChange}
-          required
-          className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-        />
-      </div>
-      <div className="mb-6">
-        <label className="block text-gray-700 font-bold mb-2">Email:</label>
-        <input
-          type="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-          required
-          className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-        />
-      </div>
-      <div className="mb-6">
-        <label className="block text-gray-700 font-bold mb-2">Message:</label>
-        <textarea
-          name="message"
-          value={formData.message}
-          onChange={handleChange}
-          required
-          className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
-        />
-      </div>
-      <button
-        type="submit"
-        className="w-full bg-blue-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-300"
-      >
-        Send Email
-      </button>
-    </form>
+  onSubmit={handleSubmit}
+  className="max-w-lg mx-auto p-8 bg-gray-800 shadow-lg rounded-lg"
+>
+  <div className="mb-6">
+    <label className="block text-gray-300 font-bold mb-2">Name:</label>
+    <input
+      type="text"
+      name="name"
+      value={formData.name}
+      onChange={handleChange}
+      required
+      className="w-full px-3 py-2 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 bg-gray-700 text-gray-200"
+    />
+  </div>
+  <div className="mb-6">
+    <label className="block text-gray-300 font-bold mb-2">Email:</label>
+    <input
+      type="email"
+      name="email"
+      value={formData.email}
+      onChange={handleChange}
+      required
+      className="w-full px-3 py-2 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 bg-gray-700 text-gray-200"
+    />
+  </div>
+  <div className="mb-6">
+    <label className="block text-gray-300 font-bold mb-2">Message:</label>
+    <textarea
+      name="message"
+      value={formData.message}
+      onChange={handleChange}
+      required
+      className="w-full px-3 py-2 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 bg-gray-700 text-gray-200"
+    />
+  </div>
+  <button
+    type="submit"
+    className="w-full bg-purple-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-purple-800 transition duration-300"
+  >
+    Send Email
+  </button>
+</form>
+
   );
 };
 
