@@ -4,7 +4,7 @@ import EmailForm from "./ui/Email";
 
 function ContactPhone() {
   return (
-    <div className="h-full lg:hidden w-full mb-20">
+    <div className="h-full lg:hidden w-full mb-20 pt-20">
       <EmailForm />
     </div>
   );

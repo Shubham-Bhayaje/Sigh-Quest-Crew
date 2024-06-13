@@ -1086,6 +1086,9 @@ video {
 .h-1 {
   height: 0.25rem;
 }
+.h-\[\] {
+  height: ;
+}
 .min-h-screen {
   min-height: 100vh;
 }
@@ -1700,6 +1703,9 @@ video {
 }
 .pt-4 {
   padding-top: 1rem;
+}
+.pt-20 {
+  padding-top: 5rem;
 }
 .text-center {
   text-align: center;
