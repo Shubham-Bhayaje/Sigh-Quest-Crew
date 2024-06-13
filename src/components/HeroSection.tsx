@@ -101,7 +101,7 @@ function HeroSection() {
           <AnimatedTooltip items={people} />
         </div>
         <div className="mt-4"></div>
-        <Link href={"/Projects"}>
+        <Link href={"/contact"}>
           <Button
             borderRadius="1.7rem"
             className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-900 font-serif border-4"

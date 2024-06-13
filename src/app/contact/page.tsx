@@ -3,7 +3,7 @@ import React from "react";
 
 function contactpage() {
   return (
-    <div className="w-full h-full flex items-center justify-center pt-32">
+    <div className="w-full h-full flex items-center justify-center pt-32 bg-black">
         <Contact/>
     </div>
   );

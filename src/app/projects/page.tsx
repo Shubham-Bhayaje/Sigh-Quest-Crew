@@ -4,7 +4,7 @@ import React from 'react'
 
 function projectspage() {
   return (
-    <div><Projects/></div>
+    <div className='bg-black'><Projects/></div>
   )
 }
 

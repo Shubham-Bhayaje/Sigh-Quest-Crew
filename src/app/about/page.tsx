@@ -1,10 +1,12 @@
-import About from '@/components/About'
-import React from 'react'
+import About from "@/components/About";
+import React from "react";
 
 function Aboutpage() {
   return (
-    <div><About/></div>
-  )
+    <div className="bg-black">
+      <About />
+    </div>
+  );
 }
 
-export default Aboutpage
+export default Aboutpage;

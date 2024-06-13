@@ -7,9 +7,10 @@ const EmailForm = () => {
     name: "",
     email: "",
     message: "",
+    phone: "", // Added phone field
   });
 
-  const handleChange = (e: { target: { name: any; value: any } }) => {
+  const handleChange = (e: { target: { name: any; value: any; }; }) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -17,7 +18,7 @@ const EmailForm = () => {
     });
   };
 
-  const handleSubmit = (e: { preventDefault: () => void }) => {
+  const handleSubmit = (e: { preventDefault: () => void; }) => {
     e.preventDefault();
 
     emailjs
@@ -38,13 +39,14 @@ const EmailForm = () => {
       name: "",
       email: "",
       message: "",
+      phone: "", // Reset phone field
     });
   };
 
   return (
     <form
   onSubmit={handleSubmit}
-  className="max-w-lg mx-auto p-8 bg-gray-800 shadow-lg rounded-lg"
+  className="w-[70%] mx-auto p-8 bg-gray-800 bg-opacity-50 backdrop-filter backdrop-blur-lg shadow-lg rounded-lg sm:w-[100%]"
 >
   <div className="mb-6">
     <label className="block text-gray-300 font-bold mb-2">Name:</label>
@@ -54,7 +56,7 @@ const EmailForm = () => {
       value={formData.name}
       onChange={handleChange}
       required
-      className="w-full px-3 py-2 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 bg-gray-700 text-gray-200"
+      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 bg-transparent text-gray-200"
     />
   </div>
   <div className="mb-6">
@@ -65,7 +67,17 @@ const EmailForm = () => {
       value={formData.email}
       onChange={handleChange}
       required
-      className="w-full px-3 py-2 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 bg-gray-700 text-gray-200"
+      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 bg-transparent text-gray-200"
+    />
+  </div>
+  <div className="mb-6">
+    <label className="block text-gray-300 font-bold mb-2">Phone:</label>
+    <input
+      type="text"
+      name="phone"
+      value={formData.phone}
+      onChange={handleChange}
+      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 bg-transparent text-gray-200"
     />
   </div>
   <div className="mb-6">
@@ -75,16 +87,17 @@ const EmailForm = () => {
       value={formData.message}
       onChange={handleChange}
       required
-      className="w-full px-3 py-2 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 bg-gray-700 text-gray-200"
+      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 bg-transparent text-gray-200"
     />
   </div>
   <button
     type="submit"
-    className="w-full bg-purple-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-purple-800 transition duration-300"
+    className="w-full bg-gradient-to-r from-purple-600 via-purple-700 to-purple-800 text-white font-bold py-2 px-4 rounded-lg hover:bg-purple-800 transition duration-300"
   >
-    Send Email
+    Submit
   </button>
 </form>
+
 
   );
 };

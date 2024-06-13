@@ -4,7 +4,7 @@ import { HeroParallax } from "./ui/hero-parallax";
 
 function Projects() {
   return (
-    <div className="mt-20">
+    <div className="mt-20 h-full">
       <HeroParallax products={products} />
     </div>
   );
