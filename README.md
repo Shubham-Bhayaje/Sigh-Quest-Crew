@@ -1,4 +1,9 @@
+<p align="center">
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+</p>
+<p align="center">
+<img src="https://github.com/Shubham-Bhayaje/Weather-Forcast/blob/main/public/Screenshot%202024-06-20%20163515.png" width="100%">
+</p>
 
 ## Getting Started
 
