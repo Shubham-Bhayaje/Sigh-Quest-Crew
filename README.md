@@ -8,7 +8,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 <img src="https://github.com/Shubham-Bhayaje/Sigh-Quest-Crew/blob/main/public/Friday/Screenshot%202024-06-20%20164853.png" width="100%">
 </p>
 <p align="center">
-<img src="https://github.com/Shubham-Bhayaje/Sigh-Quest-Crew/blob/main/public/Friday/Screenshot%202024-06-20%20164956.png" width="100%">
+<img src="https://github.com/Shubham-Bhayaje/Sigh-Quest-Crew/blob/main/public/Friday/Screenshot%202024-06-20%20164931.png" width="100%">
 </p>
 <p align="center">
 <img src="https://github.com/Shubham-Bhayaje/Sigh-Quest-Crew/blob/main/public/Friday/Screenshot%202024-06-20%20164956.png" width="100%">
