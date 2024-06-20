@@ -2,7 +2,19 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 </p>
 <p align="center">
-<img src="https://github.com/Shubham-Bhayaje/Weather-Forcast/blob/main/public/Screenshot%202024-06-20%20163515.png" width="100%">
+<img src="https://github.com/Shubham-Bhayaje/Sigh-Quest-Crew/blob/main/public/Friday/Screenshot%202024-06-20%20164750.png" width="100%">
+</p>
+<p align="center">
+<img src="https://github.com/Shubham-Bhayaje/Sigh-Quest-Crew/blob/main/public/Friday/Screenshot%202024-06-20%20164853.png" width="100%">
+</p>
+<p align="center">
+<img src="https://github.com/Shubham-Bhayaje/Sigh-Quest-Crew/blob/main/public/Friday/Screenshot%202024-06-20%20164956.png" width="100%">
+</p>
+<p align="center">
+<img src="https://github.com/Shubham-Bhayaje/Sigh-Quest-Crew/blob/main/public/Friday/Screenshot%202024-06-20%20164956.png" width="100%">
+</p>
+<p align="center">
+<img src="https://github.com/Shubham-Bhayaje/Sigh-Quest-Crew/blob/main/public/Friday/Screenshot%202024-06-20%20165040.png" width="100%">
 </p>
 
 ## Getting Started
